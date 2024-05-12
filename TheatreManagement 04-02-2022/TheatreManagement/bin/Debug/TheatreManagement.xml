@@ -1,0 +1,356 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TheatreManagement
+</name>
+</assembly>
+<members>
+<member name="T:TheatreManagement.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.blue_armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.checkmark_done_outline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.chevron_down_outline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.chevron_up_outline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.grey_armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.home_outline">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.home_outline1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.log_out_outline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.person_sharp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.pink_armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.red_armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.refresh_outline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TheatreManagement.My.Resources.Resources.yellow_armchair">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1.movie_masterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1.movie_masterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1.movie_masterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1TableAdapters.movie_masterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(TheatreManagement.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(TheatreManagement.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(TheatreManagement.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.UpdateAll(TheatreManagement.Database1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet.screen_detailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet.screen_detailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSet.screen_detailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSetTableAdapters.screen_detailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(TheatreManagement.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(TheatreManagement.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(TheatreManagement.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.UpdateAll(TheatreManagement.Database1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieList">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieList.movie_masterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieList.movie_masterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieList.movie_masterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieListTableAdapters.movie_masterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.UpdateUpdatedRows(TheatreManagement.Database1MovieList,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.UpdateInsertedRows(TheatreManagement.Database1MovieList,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.UpdateDeletedRows(TheatreManagement.Database1MovieList,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.UpdateAll(TheatreManagement.Database1MovieList)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1MovieListTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_details">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_details.time_detailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_details.time_detailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_details.time_detailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_detailsTableAdapters.time_detailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.UpdateUpdatedRows(TheatreManagement.Database1time_details,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.UpdateInsertedRows(TheatreManagement.Database1time_details,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.UpdateDeletedRows(TheatreManagement.Database1time_details,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.UpdateAll(TheatreManagement.Database1time_details)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TheatreManagement.Database1time_detailsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
